@@ -1,0 +1,24 @@
+{
+  "name": "ashleyhindle/graylog2-example",
+  "installpath": "/tmp/graylog2-example/",
+  "provisioner": "provisioner.sh",
+  "text": {
+    "complete": ""
+  },
+  "links": [
+    {
+      "title": "Documentation",
+      "url": "http://{{DOMAIN}}/"
+    }
+  ],
+  "size": {
+    "suggested": "512mb",
+    "required": "512mb"
+  },
+  "distro": "ubuntu-14-04-x64",
+  "description": "Forward syslog to a graylog instance for testing",
+  "keywords": ["fodor", "example", "graylog"],
+  "homepage": "http://ashleyhindle.com",
+  "inputs": [
+  ]
+}
