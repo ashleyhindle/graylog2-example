@@ -15,7 +15,7 @@ DEST_IP="127.0.0.1"
 MESSAGES=("Error Event" "Warning Event" "Info Event")
 
 # How many message to send at a time.
-COUNT=${1:=1000}
+COUNT=2000
 
 PRIORITIES=(0 1 2 3 4 5 6 7)
 
@@ -28,4 +28,4 @@ do
 done
 EOF
 
-bash /tmp/syslogGenerator.sh 2000
+bash /tmp/syslogGenerator.sh
