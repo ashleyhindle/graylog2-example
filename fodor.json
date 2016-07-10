@@ -20,5 +20,11 @@
   "keywords": ["fodor", "example", "graylog"],
   "homepage": "http://ashleyhindle.com",
   "inputs": [
+    {
+      "title": "Graylog Domain",
+      "notes": "The domain or IP, no scheme.  e.g. graylog.fodor.xyz"
+      "name": "graylog_domain",
+      "type": "string"
+    }
   ]
 }
