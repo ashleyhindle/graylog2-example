@@ -22,7 +22,7 @@
   "inputs": [
     {
       "title": "Graylog Domain",
-      "notes": "The domain or IP, no scheme.  e.g. graylog.fodor.xyz"
+      "notes": "The domain or IP, no scheme.  e.g. graylog.fodor.xyz",
       "name": "graylog_domain",
       "type": "string"
     }
